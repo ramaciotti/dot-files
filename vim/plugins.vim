@@ -17,5 +17,12 @@ call plug#begin('~/.vim/plugged')
   Plug 'davidhalter/jedi-vim'
   Plug 'python.vim'
 
+  " Rust specific
+  Plug 'rust-lang/rust.vim'
+  Plug 'phildawes/racer'
+
+  " TOML specific
+  Plug 'cespare/vim-toml'
+
 call plug#end()
 
