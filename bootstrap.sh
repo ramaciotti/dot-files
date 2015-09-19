@@ -7,7 +7,8 @@ ${DOT_FILES:=~/dot-files}
 
 # Download zsh and its syntax-highlighting plugin
 zsh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git \
+       $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 rm $HOME/.zshrc
 ln -s $DOT_FILES/zshrc $HOME/.zshrc
 
