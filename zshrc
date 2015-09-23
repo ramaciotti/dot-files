@@ -13,6 +13,7 @@ plugins=(gitfast zsh-syntax-highlighting)
 typeset -U path
 path=(
   ~/.gem/ruby/2.2.0/bin
+  ~/bin
   $path
 )
 
@@ -23,4 +24,7 @@ export EDITOR=vim
 alias rm="rm -v"
 alias cp="cp -v"
 alias mv="mv -v"
+
+setopt HIST_IGNORE_SPACE
+alias jrnl=" jrnl"
 
