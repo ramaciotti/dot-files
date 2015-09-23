@@ -1,7 +1,10 @@
 export ZSH=$HOME/.oh-my-zsh
 
 if command -v tmux>/dev/null; then
-  [[ ! $TERM =~ "screen" ]] && [ -z $TMUX ] && exec tmux
+  [[ ! $TERM =~ "screen" ]] && \
+      [ -z $TMUX ] && \
+      [ ! -z $SSH_CONNECTION ] && \
+      exec tmux
 fi
 
 fortune -a
