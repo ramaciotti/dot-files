@@ -17,5 +17,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'davidhalter/jedi-vim'
   Plug 'python.vim'
 
+  " Ruby specifig
+  Plug 'vim-ruby/vim-ruby'
+
 call plug#end()
 

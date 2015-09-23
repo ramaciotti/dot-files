@@ -3,7 +3,7 @@
 # Sets up the configuration files.  It assumes that git, vim, and zsh are
 # already installed.
 
-${DOT_FILES:=~/dot-files}
+${DOT_FILES:=$HOME/dot-files}
 
 # Download zsh and its syntax-highlighting plugin
 zsh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

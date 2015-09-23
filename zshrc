@@ -1,4 +1,4 @@
-export ZSH=/home/andre/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 if command -v tmux>/dev/null; then
   [[ ! $TERM =~ "screen" ]] && [ -z $TMUX ] && exec tmux
@@ -6,7 +6,7 @@ fi
 
 fortune -a
 
-ZSH_THEME="gallifrey"
+ZSH_THEME="gentoo"
 
 plugins=(gitfast zsh-syntax-highlighting)
 
