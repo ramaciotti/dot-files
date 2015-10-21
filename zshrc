@@ -16,6 +16,7 @@ plugins=(gitfast zsh-syntax-highlighting)
 typeset -U path
 path=(
   ~/.gem/ruby/2.2.0/bin
+  ~/.local/bin
   ~/bin
   $path
 )
