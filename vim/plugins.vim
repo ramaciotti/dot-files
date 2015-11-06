@@ -1,6 +1,14 @@
 call plug#begin('~/.vim/plugged')
 
+  Plug 'Shougo/unite.vim'
+  Plug 'Valloric/YouCompleteMe'
   Plug 'bogado/file-line'
+  Plug 'junegunn/vim-easy-align'
+  Plug 'majutsushi/tagbar'
+  Plug 'mhinz/vim-signify'
+  Plug 'scrooloose/nerdtree'
+  Plug 'tpope/vim-repeat'
+  Plug 'tpope/vim-surround'
 
   " C++ specific
   Plug 'cpp.vim'
