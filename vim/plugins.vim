@@ -35,5 +35,8 @@ call plug#begin('~/.vim/plugged')
   " TOML specific
   Plug 'cespare/vim-toml'
 
+  " Typescript specific
+  Plug 'leafgarland/typescript-vim'
+
 call plug#end()
 
