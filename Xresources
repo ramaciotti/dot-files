@@ -1,0 +1,15 @@
+Xft.antialias: true
+Xft.rgba: rgb
+
+URxvt.font: xft:Terminus:size=9
+URxvt.scrollBar: false
+URxvt.buffered: true
+URxvt.cursorBlink: true
+
+#include ".Xresources.d/colors/custom"
+! #include ".Xresources.d/colors/dark"
+! #include ".Xresources.d/colors/erosion"
+! #include ".Xresources.d/colors/molokai"
+! #include ".Xresources.d/colors/solarized"
+! #include ".Xresources.d/colors/tomorrow"
+

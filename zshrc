@@ -1,5 +1,10 @@
 export ZSH=$HOME/.oh-my-zsh
 
+if [[ $(uname) =~ "FreeBSD" ]]; then
+  export LANG=en_US.UTF-8
+  export MM_CHARSET=UTF-8
+fi
+
 if command -v tmux>/dev/null; then
   [[ ! $TERM =~ "screen" ]] && \
       [ -z $TMUX ] && \
@@ -15,7 +20,6 @@ plugins=(gitfast zsh-syntax-highlighting)
 
 typeset -U path
 path=(
-  ~/.gem/ruby/2.2.0/bin
   ~/.local/bin
   ~/bin
   $path

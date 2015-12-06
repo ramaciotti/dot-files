@@ -22,3 +22,11 @@ vim -c PlugInstall -c q -c q
 # Link tmux settings
 ln -s $DOT_FILES/tmux.conf $HOME/.tmux.conf
 
+# Link X.org settings
+ln -s $DOT_FILES/xinitrc $HOME/.xinitrc
+ln -s $DOT_FILES/Xresources $HOME/.Xresources
+ln -s $DOT_FILES/Xresources.d $HOME/.Xresources.d
+
+# Link i3 settings
+ln -s $DOT_FILES/i3 $HOME/.i3
+
