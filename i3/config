@@ -52,3 +52,8 @@ bindsym $mod+l focus right
 bindsym $mod+Alt_R focus left
 bindsym $mod+Super_R focus down
 bindsym $mod+Print focus up
+
+bar {
+  status_command i3status
+}
+
