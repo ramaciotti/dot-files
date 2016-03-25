@@ -7,10 +7,5 @@ URxvt.scrollBar: false
 URxvt.buffered: true
 URxvt.cursorBlink: true
 
-! #include ".Xresources.d/colors/custom"
-! #include ".Xresources.d/colors/dark"
-! #include ".Xresources.d/colors/erosion"
-! #include ".Xresources.d/colors/molokai"
-! #include ".Xresources.d/colors/solarized"
-#include ".Xresources.d/colors/tomorrow"
+#include ".Xresources.d/colors/base16-default"
 
