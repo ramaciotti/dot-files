@@ -11,6 +11,7 @@ git clone git://github.com/zsh-users/zsh-syntax-highlighting.git \
        $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 rm $HOME/.zshrc
 ln -s $DOT_FILES/zshrc $HOME/.zshrc
+ln -s $DOT_FILES/zprofile $HOME/.zprofile
 
 # Download vim-plug and install plugins
 ln -s $DOT_FILES/vim $HOME/.vim
