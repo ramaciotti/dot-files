@@ -29,9 +29,10 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR=vim
 
-alias rm="rm -v"
 alias cp="cp -v"
+alias ls="ls -F"
 alias mv="mv -v"
+alias rm="rm -v"
 
 setopt HIST_IGNORE_SPACE
 alias jrnl=" jrnl"
