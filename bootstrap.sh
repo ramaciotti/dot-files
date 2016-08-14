@@ -31,3 +31,6 @@ ln -s $DOT_FILES/Xresources.d $HOME/.Xresources.d
 # Link i3 settings
 ln -s $DOT_FILES/i3 $HOME/.i3
 
+# Link git settings
+ln -s $DOT_FILES/gitconfig $HOME/.gitconfig
+
