@@ -34,3 +34,7 @@ ln -s $DOT_FILES/i3 $HOME/.i3
 # Link git settings
 ln -s $DOT_FILES/gitconfig $HOME/.gitconfig
 
+# Link awesome settings
+mkdir -p $HOME/.config
+ln -s $DOT_FILES/awesome $HOME/.config/awesome
+
