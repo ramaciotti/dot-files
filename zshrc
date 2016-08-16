@@ -16,7 +16,7 @@ fortune -a
 
 ZSH_THEME="gentoo"
 
-plugins=(gitfast zsh-syntax-highlighting)
+plugins=(colored-man-pages gitfast zsh-syntax-highlighting)
 
 typeset -U path
 path=(
@@ -30,10 +30,8 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=vim
 
 alias cp="cp -v"
-alias ls="ls -F"
 alias mv="mv -v"
 alias rm="rm -v"
 
 setopt HIST_IGNORE_SPACE
 alias jrnl=" jrnl"
-
