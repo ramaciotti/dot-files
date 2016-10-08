@@ -20,6 +20,10 @@ curl -fLo $HOME/.vim/autoload/plug.vim --create-dirs \
 	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 vim -c PlugInstall -c q -c q
 
+# Download cask and set up emacs
+ln -s $DOT_FILES/emacs.d $HOME/.emacs.d
+curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
+
 # Link tmux settings
 ln -s $DOT_FILES/tmux.conf $HOME/.tmux.conf
 

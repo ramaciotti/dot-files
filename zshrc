@@ -22,12 +22,13 @@ typeset -U path
 path=(
   ~/.local/bin
   ~/bin
+  ~/.cask/bin
   $path
 )
 
 source $ZSH/oh-my-zsh.sh
 
-export EDITOR=vim
+export EDITOR=emacs
 
 alias cp="cp -v"
 alias mv="mv -v"

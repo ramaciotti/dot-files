@@ -1,0 +1,8 @@
+(source gnu)
+(source marmalade)
+(source melpa)
+(source melpa-stable)
+(source org)
+;(source sc)
+
+(depends-on "pallet")
