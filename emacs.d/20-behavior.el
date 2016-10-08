@@ -25,6 +25,7 @@
       mouse-wheel-scroll-amount '(1 ((shift) . 1)))
 
 (evil-mode)
+(ido-mode)
 (pallet-mode)
 (savehist-mode)
 (semantic-mode)

@@ -1,4 +1,8 @@
 emacs.d/.cask
 emacs.d/.savehist
+emacs.d/ido.last
+emacs.d/network-security.data
+emacs.d/smex-items
+
 vim/autoload
 vim/plugged
