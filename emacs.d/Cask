@@ -5,4 +5,21 @@
 (source org)
 ;(source sc)
 
+(depends-on "evil")
+(depends-on "evil-magit")
+(depends-on "git-gutter-fringe")
+(depends-on "magit")
 (depends-on "pallet")
+(depends-on "powerline")
+(depends-on "rainbow-delimiters")
+(depends-on "undo-tree")
+
+; language modes
+(depends-on "csharp-mode")
+(depends-on "glsl-mode")
+(depends-on "go-mode")
+(depends-on "haskell-mode")
+(depends-on "less-css-mode")
+(depends-on "markdown-mode")
+(depends-on "php-mode")
+(depends-on "rust-mode")
