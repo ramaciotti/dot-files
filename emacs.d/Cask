@@ -6,6 +6,7 @@
 
 (depends-on "base16-theme")
 (depends-on "csharp-mode")
+(depends-on "elixir-mode")
 (depends-on "evil")
 (depends-on "evil-magit")
 (depends-on "git-gutter-fringe")
@@ -25,4 +26,5 @@
 (depends-on "rust-mode")
 (depends-on "smex")
 (depends-on "tuareg")
+(depends-on "typescript-mode")
 (depends-on "undo-tree")
