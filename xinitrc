@@ -4,10 +4,14 @@ xrdb -I$HOME ~/.Xresources
 setxkbmap br
 
 which VBoxClient
-if [ $? -eq 0 ]; then
+if [[ $? -eq 0 ]]; then
   VBoxClient --clipboard
 fi
 
-#exec i3
-exec awesome
+if [[ $(hostname) == "skellige" ]]; then
+  xrandr --output VGA-1 --mode 2560x1440
+else
+  xrandr --output VGA-1 --mode 1920x1080
+fi
 
+exec awesome
