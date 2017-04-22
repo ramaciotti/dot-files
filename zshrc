@@ -12,6 +12,7 @@ if command -v tmux>/dev/null; then
       exec tmux
 fi
 
+umask 022
 fortune -a
 
 ZSH_THEME="gentoo"
