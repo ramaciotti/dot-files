@@ -14,11 +14,11 @@ ln -s $DOT_FILES/zshrc $HOME/.zshrc
 ln -s $DOT_FILES/zprofile $HOME/.zprofile
 
 # Download vim-plug and install plugins
-ln -s $DOT_FILES/vim $HOME/.vim
-ln -s $DOT_FILES/vimrc $HOME/.vimrc
-curl -fLo $HOME/.vim/autoload/plug.vim --create-dirs \
-	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-vim -c PlugInstall -c q -c q
+# ln -s $DOT_FILES/vim $HOME/.vim
+# ln -s $DOT_FILES/vimrc $HOME/.vimrc
+# curl -fLo $HOME/.vim/autoload/plug.vim --create-dirs \
+#	https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+# vim -c PlugInstall -c q -c q
 
 # Download cask and set up emacs
 ln -s $DOT_FILES/emacs.d $HOME/.emacs.d
@@ -41,4 +41,3 @@ ln -s $DOT_FILES/gitconfig $HOME/.gitconfig
 # Link awesome settings
 mkdir -p $HOME/.config
 ln -s $DOT_FILES/awesome $HOME/.config/awesome
-
