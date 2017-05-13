@@ -24,6 +24,7 @@
 (depends-on "powerline")
 (depends-on "rainbow-delimiters")
 (depends-on "rust-mode")
+(depends-on "scala-mode")
 (depends-on "smex")
 (depends-on "tuareg")
 (depends-on "typescript-mode")
