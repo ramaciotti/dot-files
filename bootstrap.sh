@@ -23,6 +23,7 @@ ln -s $DOT_FILES/zprofile $HOME/.zprofile
 # Download cask and set up emacs
 ln -s $DOT_FILES/emacs.d $HOME/.emacs.d
 curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
+(cd $DOT_FILES/emacs.d; cask install)
 
 # Link tmux settings
 ln -s $DOT_FILES/tmux.conf $HOME/.tmux.conf
