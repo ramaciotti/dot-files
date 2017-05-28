@@ -1,13 +1,12 @@
 Xft.antialias: true
 Xft.rgba: rgb
 
-URxvt.font: xft:Ubuntu Mono:size=10
+URxvt.font: xft:Ubuntu Mono:size=12
 !URxvt.font: xft:Terminus:size=9
-URxvt.boldFont: xft:Ubuntu Mono:size=10
+URxvt.boldFont: xft:Ubuntu Mono:size=12
 !URxvt.boldFont: xft:Terminus:size=9
 URxvt.scrollBar: false
 URxvt.buffered: true
 URxvt.cursorBlink: true
 
 #include ".Xresources.d/colors/base16-default"
-

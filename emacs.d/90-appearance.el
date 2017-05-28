@@ -1,5 +1,5 @@
-(setq default-frame-alist '((font . "Terminus-9"))
-      initial-frame-alist '((font . "Terminus-9")))
+(setq default-frame-alist '((font . "Ubuntu Mono-12"))
+      initial-frame-alist '((font . "Ubuntu Mono-12")))
 
 ; unicode fallback
 (when (functionp 'set-fontset-font)
