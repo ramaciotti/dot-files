@@ -7,3 +7,9 @@ emacs.d/smex-items
 
 vim/autoload
 vim/plugged
+
+xmonad/xmonad.errors
+xmonad/*.hi
+xmonad/*.o
+xmonad/*.state
+xmonad/xmonad-x86_64-linux

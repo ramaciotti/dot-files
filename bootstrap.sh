@@ -46,3 +46,6 @@ ln -s $DOT_FILES/awesome $HOME/.config/awesome
 # Link openbox settings
 mkdir -p $HOME/.config
 ln -s $DOT_FILES/openbox $HOME/.config/openbox
+
+# Link xmonad setings
+ln -s $DOT_FILES/xmonad $HOME/.xmonad

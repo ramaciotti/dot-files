@@ -1,0 +1,15 @@
+Config { font = "xft:Ubuntu:Bold:size=10"
+       , bgColor = "#000000"
+       , fgColor = "#666666"
+       , position = Static { xpos = 0, ypos = 0, width = 2560, height = 16 }
+       , commands = [ Run Weather "SBFL" ["-t","FLN <tempC>C"] 36000
+                    , Run Weather "SBCF" ["-t", "BH <tempC>C"] 36000
+                    , Run Cpu [] 10
+                    , Run Memory ["-t","Mem: <usedratio>%"] 10
+                    , Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
+                    , Run StdinReader
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "%StdinReader% }{ %date% | %cpu% | %memory% | %SBFL% | %SBCF%"
+       }

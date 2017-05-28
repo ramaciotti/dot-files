@@ -2,6 +2,7 @@
 
 xrdb -I$HOME ~/.Xresources
 setxkbmap br
+xsetroot -cursor_name left_ptr
 
 which VBoxClient
 if [[ $? -eq 0 ]]; then
@@ -15,4 +16,5 @@ else
 fi
 
 #exec awesome
-exec openbox-session
+#exec openbox-session
+exec xmonad
