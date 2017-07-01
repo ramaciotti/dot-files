@@ -6,6 +6,7 @@
 
 (depends-on "base16-theme")
 (depends-on "csharp-mode")
+(depends-on "editorconfig")
 (depends-on "elixir-mode")
 (depends-on "evil")
 (depends-on "evil-magit")

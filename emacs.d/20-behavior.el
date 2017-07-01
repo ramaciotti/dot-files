@@ -24,6 +24,7 @@
       mouse-wheel-follow-mouse t
       mouse-wheel-scroll-amount '(1 ((shift) . 1)))
 
+(editorconfig-mode)
 (evil-mode)
 (ido-mode)
 (pallet-mode)

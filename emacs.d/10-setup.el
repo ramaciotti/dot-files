@@ -2,6 +2,7 @@
 (cask-initialize)
 
 (require 'cl)
+(require 'editorconfig)
 (require 'evil)
 (require 'evil-magit)
 (require 'ido)
