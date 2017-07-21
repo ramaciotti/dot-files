@@ -1,5 +1,5 @@
-(setq default-frame-alist '((font . "Ubuntu Mono-12"))
-      initial-frame-alist '((font . "Ubuntu Mono-12")))
+(setq default-frame-alist '((font . "Fira Code-10"))
+      initial-frame-alist '((font . "Fira Code-10")))
 
 ; unicode fallback
 (when (functionp 'set-fontset-font)
